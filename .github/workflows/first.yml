@@ -35,3 +35,13 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo testing multiple lines
+
+      - name: Print current directory
+        run: pwd
+
+      - name: List files
+        run: ls -la
+
+      - name: Navigate previuos path
+        run: cd ..
+      
