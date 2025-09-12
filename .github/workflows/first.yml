@@ -54,6 +54,7 @@ jobs:
         run: cd ..
 
   job2:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Say Hello
